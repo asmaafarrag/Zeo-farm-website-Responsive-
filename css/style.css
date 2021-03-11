@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+
+    box-sizing: border-box;
+}
+
+body{
+    font-size: .5rem;
+    font-family: "Chivo","Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+hr{
+    opacity:.1;
+}
+.opacity-85 {
+    opacity: .85 !important;
+}
+
+header{
+    
+    width: 100%;
+    height: auto;
+    line-height: 1.5;
+    background: url(../images/illustrations/hero-header.png) no-repeat;
+    background-size: cover;
+    background-position: 90px -10px;
+   
+}
+
+header nav .collapse > button.btn{
+    background-color:#44343E;
+    color: #fff;
+    font-size: 16px;
+
+}
+.btn-success {
+    color: #fff;
+    background-color: #66BB6A;
+    border-color: #66BB6A;
+}
+
+img, svg {
+    vertical-align: middle;
+    margin-right: 5px;
+    max-width: 75%;
+}
+
+
+.navbar-light .navbar-nav,.navbar-light .navbar-nav .nav-link,a {
+    color:#000;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header nav button{
+    padding: 10x 10px;
+}
+
+
+header nav .navbar-nav .nav-item {
+    /* margin-right: 15px; */
+    text-align: left;
+}
+
+
+header .container .text{
+    padding-top:180px ;
+    width: 50%;
+    margin:0 auto;
+    
+}
+
+header .container .text h1{
+    color:#122E58 ;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+
+header .container .text p{
+    color:#b0adb6 ;
+    margin-top: 20px;
+    
+    font-size: 1.2rem !important;
+}
+
+
+
+/* end header */
+
+
+
+/*  start opportunities */
+
+.opportunities{
+    width: 100%;
+    height: auto;
+    line-height: 1.5;
+    background: url(../images/illustrations/bg.png) no-repeat;
+    background-size: contain;
+    background-position:42px -200px;
+
+}
+.opportunities .container .info{
+   text-align: center;
+   padding-top: 20px;
+}
+
+.opportunities .container .info h2{
+    color: #102D58;
+    font-weight: 700;
+}
+
+.opportunities .container .info p{
+    color: #C2C2C8;
+    font-size: 20px;
+    
+}
+
+
+.opportunities .container .slide{
+    
+    width: 250px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.opportunities .container .slide:hover{
+    
+    background: #d9eeda;
+
+}
+.opportunities .container .slide h3{
+    color: #102D58;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+
+.opportunities .container .slide p{
+    color: #C2C2C8;
+    font-size: 18px;
+   
+    
+}
+
+.opportunities .container .slide .img {
+   max-width: 40%;
+   height: auto;
+   margin-top: 20px;
+
+
+}
+
+
+/* end opprtunities */
+/* start invest */
+.Invest{
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.Invest .container .info{
+    margin-top: 50px;
+    text-align: left;
+    padding-top: 20px;
+
+ }
+ 
+.Invest .container .info h2{
+    color: #102D58;
+    font-weight: 700;
+}
+ 
+.Invest .container .info p{
+    color: #C2C2C8;
+    font-size: 20px;
+     
+}
+
+
+.Invest .container .farm{
+    width: 49%;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+    background-image: 
+    linear-gradient( 
+        rgba(113,110,110,0), rgba(30,42,70,0.93)
+    ),
+    url("../images/gallery/short-terms.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+
+.Invest .container .farm:last-of-type{
+    width: 49%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+    background-image: 
+    linear-gradient( 
+        rgba(113,110,110,0), rgba(30,42,70,0.93)
+    ),
+    url("../images/gallery/fully-funded.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+
+
+.Invest .container .farm  .data{
+    position: absolute;
+
+    top: 20px;
+    padding: 20px;
+}
+
+
+.Invest .container .farm  .data h6{
+    color: #539748;
+    font-size: 14px;
+}
+
+
+.Invest .container .farm  .data div{
+    width: 30%;
+    height: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.Invest .container .farm  .data h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.Invest .container .farm  .data p{
+    color: #C2C2C8;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Invest .container .farm  .data  button{
+    color: #68BC6B;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*  end invest */
+
+
+/* start work */
+
+
+.works{
+    background-color: #73be6e;
+    padding-bottom: 30px;
+}
+.works .container .info{
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.works .container .info p{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.works .container .theme-tab .nav-link {
+  
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.works .container .theme-tab .nav-link .nav-item-circle {
+    color: #fff;
+    background-color: #66BB6A;
+    border: 2px solid #fff;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    line-height: 2.75rem;
+    padding: 0;
+    text-align: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  
+}
+
+
+.works .container .theme-tab .nav-link.active {
+    color: #66BB6A;
+}
+  
+.works .container .theme-tab .nav-link.active .nav-item-circle {
+    background-color: #fff !important;
+    color: #66BB6A;
+    border-color: #fff;
+}
+  
+.works .container .theme-tab .nav-link .nav-item-circle .check-icon {
+    display: none;
+}
+  
+.works .container .theme-tab .nav-link .nav-item-circle-parent {
+    display: block;
+}
+  
+.works .container .theme-tab .nav-link .nav-item-circle-parent:before {
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    background: #fff;
+    overflow: hidden;
+}
+  
+.works .container .theme-tab .nav-item-circle-parent {
+    position: relative;
+    padding: 0 1rem;
+}
+  
+.works .container .theme-tab .nav-item-circle {
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+  
+.works .container .theme-tab .nav-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+  
+.works .container .theme-tab .nav-item:first-child .nav-item-circle-parent:before, 
+.theme-tab .nav-item:last-child .nav-item-circle-parent:before {
+    width: 50%;
+}
+  
+.works .container .theme-tab .nav-item:first-child .nav-item-circle-parent:before {
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+  
+.works .container .theme-tab .nav-item:last-child .nav-item-circle-parent:before {
+    left: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+  
+.cta {
+    margin-bottom: -4rem;
+}
+  
+.cta {
+    margin-bottom: -4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .cta {
+      margin-bottom: -5rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .cta {
+      margin-bottom: -10rem;
+    }
+}
+  
+.p{
+    font-size: 15px;
+}
+
+
+/*  start team */
+
+.team{
+    width: 100%;
+    height: auto;
+    line-height: 1.5;
+    background: url(../images/illustrations/testimonial-bg.png) no-repeat;
+    background-size: 140px;
+    background-position: 30px 20px;
+}
+
+
+.team .container .info{
+   text-align: left;
+   padding-top: 20px;
+   margin-bottom: 50px;
+}
+
+.team .container .info h2{
+    color: #102D58;
+    font-weight: 700;
+}
+
+.team .container .slide{
+    
+    width: 250px;
+    height: 380px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.team .container .slide h3{
+    color: #66bb6a;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.team .container .slide h4{
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+  
+
+}
+
+.team .container .slide p{
+    color: #7d7987;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+  
+
+}
+
+.team .container .slide .img {
+   max-width: 40%;
+   height: auto;
+   margin-top: 20px;
+
+
+}
+
+.team .container nav span {
+    color: #66bb6a;
+    font-size: 28px;
+
+}
+
+
+
+/*  footer */
+
+
+footer{
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    background-image: url("../images/illustrations/footer-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0 -90px ;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:#87858d ;
+    font-weight: 600;
+}
+
+footer ul>li:first-of-type{
+    color: #102D58;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer .container .her{
+    border-radius: 5px;
+    padding: 22px;
+    height: auto;
+    background-color: #68BC6B;
+    color: #fff;
+}
+
+
+footer .here h5{
+    font-size: 20px;
+}
+
+footer .her p{
+    font-size: 12px;
+    padding:  0 -5px;
+}
+
+footer .her button{
+    color: #68BC6B;
+    font-size: 15px;
+}
+
+footer  img{
+    max-width: 40%;
+    height: auto;
+}
+
+footer .new p{
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    header .container .text{  
+       margin: 0;  
+    }
+   
+}
+
+
+@media (min-width: 992px) {
+    header{
+       background-position: 190px -160px;
+    }
+
+}
+
+
+@media (min-width: 1200px){
+    header{
+        background-position: 250px -90px;
+    }
+}
+
+
+
+
